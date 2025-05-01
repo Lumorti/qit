@@ -10,7 +10,8 @@ title: QIT @ ICFO
 email: lbmortimer1998@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of the QIT group at ICFO
-url: http://lumorti.github.io
+baseurl: /
+url: /
 
 include:
   - .htaccess
@@ -24,14 +25,6 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
-
-# GitHub fixed
-safe: true
-source: http://lumorti.github.io
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
 
 # Markdown Processing
 kramdown:
