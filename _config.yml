@@ -10,8 +10,6 @@ title: QIT @ ICFO
 email: lbmortimer1998@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of the QIT group at ICFO
-root: /
-baseurl: /
 url: http://lumorti.github.io
 
 include:
