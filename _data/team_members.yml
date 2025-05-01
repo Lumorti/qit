@@ -55,13 +55,12 @@
   email: leonardo.zambrano@icfo.eu
   topics:
     - Quantum Tomography
-    - Many-Body Quantum Physics
     - Quantum Foundations
 
 - name: Dr. Hippolyte Dourdent
   position: Postdoctoral Researcher
   photo: hipo.png
-  info: Postdoctoral researcher
+  info: Postdoctoral researcher since May 2022
   email: hippolyte.dourdent@icfo.eu
   topics:
     - Indefinite Causal Orders
@@ -71,7 +70,7 @@
 - name: Dr. Miguel Frías Pérez
   position: Postdoctoral Researcher
   photo: empty.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since April 2025
   email: miguel.frias@icfo.eu
   topics:
     - Quantum Computing
@@ -80,7 +79,7 @@
 - name: Dr. Roberto González Pousa
   position: Postdoctoral Researcher
   photo: roberto.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since November 2024
   email: roberto.gonzalez@icfo.eu
   topics:
     - Quantum Key Distribution
@@ -247,7 +246,7 @@
 - name: Giacomo Franceschetto
   position: PhD Student
   photo: giacomo.png
-  info: PhD student since TODO
+  info: PhD student since November 2023
   email: giacomo.franceschetto@icfo.eu
   topics:
     - Quantum Computing
@@ -416,7 +415,7 @@
 - name: Ruth Mora
   position: Master and Bachelor Student
   photo: empty.png
-  info: Student since TODO
+  info: Student since October 2024
   email: ruth.mora@icfo.eu
   topics:
     - TODO
@@ -440,7 +439,7 @@
 - name: Ían Patón
   position: Master and Bachelor Student
   photo: ian.png
-  info: Student since TODO
+  info: Student since March 2025
   email: ian.paton@icfo.eu
   topics:
     - TODO
