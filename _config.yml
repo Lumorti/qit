@@ -10,7 +10,7 @@ title: QIT @ ICFO
 email: lbmortimer1998@gmail.com
 description: Website of the QIT group at ICFO
 baseurl: /
-url: https://lumorti.github.io/qit
+url: https://lumorti.github.io/
 
 include:
   - .htaccess
