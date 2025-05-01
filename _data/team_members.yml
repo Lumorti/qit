@@ -5,10 +5,11 @@
   email: antonio.acin@icfo.eu
   topics:
     - Quantum Foundations
-    - Bell Nonlocality
+    - Nonlocality
     - Quantum Cryptography
     - Quantum Randomness
     - Many-body Quantum Physics
+    - Quantum Networks
 
 
 
@@ -19,7 +20,8 @@
   info: Research fellow since TODO
   email: rotem.liss@icfo.eu
   topics:
-    - TODO
+    - Quantum Key Distribution
+    - Quantum Foundations
 
 - name: Dr. Pere Mujal Torreblanca
   position: Postdoctoral Researcher
@@ -27,7 +29,8 @@
   info: Research fellow since TODO
   email: pere.mujal@icfo.eu
   topics:
-    - TODO
+    - Quantum Reservoir Computing
+    - Many-Body Quantum Physics
 
 
 
@@ -39,7 +42,10 @@
   info: Postdoctoral researcher since TODO
   email: federico.centrone@icfo.eu
   topics:
-    - TODO
+    - Quantum Thermodynamics
+    - Quantum Key Distribution
+    - Quantum Steering
+    - Quantum Networks
 
 - name: Dr. Leonardo Zambrano
   position: Postdoctoral Researcher
@@ -66,7 +72,8 @@
   info: Postdoctoral researcher since TODO
   email: miguel.frias@icfo.eu
   topics:
-    - TODO
+    - Quantum Computing
+    - Tensor Networks
 
 - name: Dr. Roberto González Pousa
   position: Postdoctoral Researcher
@@ -74,7 +81,7 @@
   info: Postdoctoral researcher since TODO
   email: roberto.gonzalez@icfo.eu
   topics:
-    - TODO
+    - Quantum Key Distribution
 
 - name: Dr. Marcio Taddei
   position: Postdoctoral Researcher
@@ -82,7 +89,9 @@
   info: Postdoctoral researcher since TODO
   email: marcio.taddei@icfo.eu
   topics:
-    - TODO
+    - Quantum Steering
+    - Quantum Tomography
+    - Quantum Foundations
 
 - name: Dr. Tamás Kriváchy
   position: Postdoctoral Researcher
@@ -90,7 +99,8 @@
   info: Postdoctoral researcher since TODO
   email: tamas.krivachy@icfo.eu
   topics:
-    - TODO
+    - Quantum Steering
+    - Quantum Networks
 
 - name: Dr. Andreas Leitherer
   position: Postdoctoral Researcher
@@ -98,7 +108,9 @@
   info: Postdoctoral researcher since TODO
   email: andreas.leitherer@icfo.eu
   topics:
-    - TODO
+    - Many-Body Quantum Physics
+    - Machine Learning
+    - Tensor Networks
 
 - name: Dr. Alimuddin Mir
   position: Postdoctoral Researcher
@@ -106,7 +118,8 @@
   info: Postdoctoral researcher since TODO
   email: alimuddin.mir@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Communication
 
 - name: Dr. Luciano Pereira
   position: Postdoctoral Researcher
@@ -114,7 +127,8 @@
   info: Postdoctoral researcher since TODO
   email: luciano.pereira@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Tomography
 
 - name: Dr. Ignacio Perito
   position: Postdoctoral Researcher
@@ -122,7 +136,8 @@
   info: Postdoctoral researcher since TODO
   email: ignacio.perito@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Tomography
 
 - name: Dr. Martin J. Renner
   position: Postdoctoral Researcher
@@ -130,7 +145,8 @@
   info: Postdoctoral researcher since TODO
   email: martin.renner@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Communication
 
 - name: Dr. Ranieri Nery
   position: Postdoctoral Researcher
@@ -138,7 +154,9 @@
   info: Postdoctoral researcher since TODO
   email: ranieri.nery@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Steering
+    - Nonlocality
 
 - name: Dr. Raja Yehia
   position: Postdoctoral Researcher
@@ -146,7 +164,9 @@
   info: Postdoctoral researcher since TODO
   email: raja.yehia@icfo.eu
   topics:
-    - TODO
+    - Quantum Communication
+    - Quantum Key Distribution
+    - Quantum Energy Usage
 
 
 
@@ -165,7 +185,7 @@
     - Many-body Quantum Physics
     - Quantum Computing
     - Mutually Unbiased Bases
-    - Bell Nonlocality
+    - Nonlocality
     - Indefinite Causal Orders
 
 - name: Gustavo Balvedi Pimentel
@@ -174,7 +194,8 @@
   info: PhD student since TODO
   email: gustavo.balvedi@icfo.eu
   topics:
-    - TODO
+    - Non-Contextuality
+    - Quantum Foundations
 
 - name: Júlia Barberà Rodríguez
   position: PhD Student
@@ -182,7 +203,7 @@
   info: PhD student since TODO
   email: julia.barbera@icfo.eu
   topics:
-    - TODO
+    - Quantum Tomography
 
 - name: Fionnuala Curran
   position: PhD Student
@@ -190,7 +211,8 @@
   info: PhD student since TODO
   email: fionnuala.curran@icfo.eu
   topics:
-    - TODO
+    - Quantum Randomness
+    - Nonlocality
 
 - name: Raffaele D'Avino
   position: PhD Student
@@ -198,7 +220,8 @@
   info: PhD student since TODO
   email: raffaele.davino@icfo.eu
   topics:
-    - TODO
+    - Quantum Thermodynamics
+    - Quantum Randomness
 
 - name: Tomás Fernández Martos
   position: PhD Student
@@ -206,7 +229,8 @@
   info: PhD student since TODO
   email: tomas.fernandez@icfo.eu
   topics:
-    - TODO
+    - Quantum Metrology
+    - Quantum Randomness
 
 - name: Francesco Flora
   position: PhD Student
@@ -214,7 +238,9 @@
   info: PhD student since TODO
   email: francesco.flora@icfo.eu
   topics:
-    - TODO
+    - Nonlocality
+    - Optimization
+    - Machine Learning
 
 - name: Giacomo Franceschetto
   position: PhD Student
@@ -222,7 +248,9 @@
   info: PhD student since TODO
   email: giacomo.franceschetto@icfo.eu
   topics:
-    - TODO
+    - Quantum Computing
+    - Quantum Reservior Computing
+    - Machine Learning
 
 - name: Timothy Heightman
   position: PhD Student
@@ -230,7 +258,9 @@
   info: PhD student since TODO
   email: timothy.heightman@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Hamiltonian Learning
+    - Machine Learning
 
 - name: Edward Jiang
   position: PhD Student
@@ -238,7 +268,8 @@
   info: PhD student since TODO
   email: ye-duo.jian@icfo.eu
   topics:
-    - TODO
+    - Hamiltonian Learning
+    - Machine Learning
 
 - name: Aurora Mugnai
   position: PhD Student
@@ -246,7 +277,7 @@
   info: PhD student since TODO
   email: aurora.mugnai@icfo.eu
   topics:
-    - TODO
+    - Quantum Randomness
 
 - name: Younes Naceur
   position: PhD Student
@@ -254,7 +285,8 @@
   info: PhD student since TODO
   email: younes.naceur@icfo.eu
   topics:
-    - TODO
+    - Tensor Networks
+    - Nonlocality
 
 - name: Mariana Navarro Asan-Srain
   position: PhD Student
@@ -262,7 +294,8 @@
   info: PhD student since TODO
   email: mariana.navarro@icfo.eu
   topics:
-    - TODO
+    - Quantum Optics
+    - Quantum Key Distribution
 
 - name: Egle Pagliaro
   position: PhD Student
@@ -270,7 +303,8 @@
   info: PhD student since TODO
   email: egle.pagliaro@icfo.eu
   topics:
-    - TODO
+    - Quantum Foundations
+    - Quantum Tomography
 
 - name: Teodor Parella Dilmé
   position: PhD Student
@@ -278,7 +312,8 @@
   info: PhD student since TODO
   email: teodor.parella@icfo.eu
   topics:
-    - TODO
+    - Quantum Chemistry
+    - Quantum Computing
 
 - name: Beatriz Polo Rodríguez
   position: PhD Student
@@ -286,7 +321,7 @@
   info: PhD student since TODO
   email: beatriz.polo@icfo.eu
   topics:
-    - TODO
+    - Quantum Optics
 
 - name: Erik Recio Armengol
   position: PhD Student
@@ -294,7 +329,8 @@
   info: PhD student since TODO
   email: erik.recio@icfo.eu
   topics:
-    - TODO
+    - Machine Learning
+    - Tensor Networks
 
 - name: Anna Steffinlongo
   position: PhD Student
@@ -302,7 +338,8 @@
   info: PhD student since TODO
   email: anna.steffinlongo@icfo.eu
   topics:
-    - TODO
+    - Nonlocality
+    - Quantum Key Distribution
 
 - name: Tommaso Feri
   position: PhD Student
@@ -310,7 +347,8 @@
   info: Visting PhD student since TODO
   email: tommaso.feri@icfo.eu
   topics:
-    - TODO
+    - Quantum Error Correction
+    - Open Quantum Systems
 
 
 
@@ -322,7 +360,7 @@
   info: Student since TODO
   email: erik.altelarrea@icfo.eu
   topics:
-    - TODO
+    - Quantum Cryptography
 
 - name: Roman Aseguinolaza Gallo
   position: Master and Bachelor Student
