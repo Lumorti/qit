@@ -65,7 +65,7 @@
   email: hippolyte.dourdent@icfo.eu
   topics:
     - Indefinite Causal Orders
-    - Non-Contextuality
+    - Contextuality
     - Quantum Foundations
 
 - name: Dr. Miguel Frías Pérez
@@ -117,7 +117,7 @@
 - name: Dr. Alimuddin Mir
   position: Postdoctoral Researcher
   photo: ali.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since July 2024
   email: alimuddin.mir@icfo.eu
   topics:
     - Quantum Foundations
@@ -135,7 +135,7 @@
 - name: Dr. Ignacio Perito
   position: Postdoctoral Researcher
   photo: nacho.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since February 2023
   email: ignacio.perito@icfo.eu
   topics:
     - Quantum Foundations
@@ -144,7 +144,7 @@
 - name: Dr. Martin J. Renner
   position: Postdoctoral Researcher
   photo: martin.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since December 2024
   email: martin.renner@icfo.eu
   topics:
     - Quantum Foundations
@@ -163,7 +163,7 @@
 - name: Dr. Raja Yehia
   position: Postdoctoral Researcher
   photo: raja.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since November 2022
   email: raja.yehia@icfo.eu
   topics:
     - Quantum Communication
@@ -191,16 +191,18 @@
 - name: Gustavo Balvedi Pimentel
   position: PhD Student
   photo: gustavo.png
-  info: PhD student since TODO
+  info: PhD student since April 2025
   email: gustavo.balvedi@icfo.eu
   topics:
-    - Non-Contextuality
+    - Contextuality
     - Quantum Foundations
+    - Indefinite Causal Orders
+    - Nonlocality
 
 - name: Júlia Barberà Rodríguez
   position: PhD Student
   photo: julia.png
-  info: PhD student since TODO
+  info: PhD student since September 2023
   email: julia.barbera@icfo.eu
   topics:
     - Quantum Tomography
@@ -208,7 +210,7 @@
 - name: Fionnuala Curran
   position: PhD Student
   photo: fionnuala.png
-  info: PhD student since TODO
+  info: PhD student since June 2022
   email: fionnuala.curran@icfo.eu
   topics:
     - Quantum Randomness
@@ -226,7 +228,7 @@
 - name: Tomás Fernández Martos
   position: PhD Student
   photo: tomas.png
-  info: PhD student since TODO
+  info: PhD student since February 2025
   email: tomas.fernandez@icfo.eu
   topics:
     - Quantum Metrology
@@ -255,7 +257,7 @@
 - name: Timothy Heightman
   position: PhD Student
   photo: tim.png
-  info: PhD student since TODO
+  info: PhD student since February 2023
   email: timothy.heightman@icfo.eu
   topics:
     - Quantum Foundations
@@ -274,7 +276,7 @@
 - name: Aurora Mugnai
   position: PhD Student
   photo: aurora.png
-  info: PhD student since TODO
+  info: PhD student since March 2025
   email: aurora.mugnai@icfo.eu
   topics:
     - Quantum Randomness
@@ -282,7 +284,7 @@
 - name: Younes Naceur
   position: PhD Student
   photo: younes.png
-  info: PhD student since TODO
+  info: PhD student since October 2024
   email: younes.naceur@icfo.eu
   topics:
     - Tensor Networks
@@ -292,7 +294,7 @@
 - name: Mariana Navarro Asan-Srain
   position: PhD Student
   photo: mariana.png
-  info: PhD student since TODO
+  info: PhD student since March 2023
   email: mariana.navarro@icfo.eu
   topics:
     - Quantum Optics
@@ -336,7 +338,7 @@
 - name: Anna Steffinlongo
   position: PhD Student
   photo: anna.png
-  info: PhD student since TODO
+  info: PhD student since January 2023
   email: anna.steffinlongo@icfo.eu
   topics:
     - Nonlocality
@@ -345,7 +347,7 @@
 - name: Tommaso Feri
   position: PhD Student
   photo: tommaso.png
-  info: Visting PhD student since TODO
+  info: Visting PhD student since February 2025
   email: tommaso.feri@icfo.eu
   topics:
     - Quantum Error Correction
@@ -374,7 +376,7 @@
 - name: Lorenzo Caramelli
   position: Master and Bachelor Student
   photo: lorenzo.png
-  info: Student since TODO
+  info: Student since February 2025
   email: lorenzo.caramelli@icfo.eu
   topics:
     - TODO
@@ -430,7 +432,7 @@
 - name: Emmanuel Ofosu
   position: Master and Bachelor Student
   photo: emmanuel.png
-  info: Student since TODO
+  info: Student since February 2025
   email: emmanuel.ofosu@icfo.eu
   topics:
     - TODO
