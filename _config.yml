@@ -8,8 +8,7 @@
 # Site settings
 title: QIT @ ICFO
 email: lbmortimer1998@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the QIT group at ICFO
+description: Website of the QIT group at ICFO
 baseurl: /
 url: https://lumorti.github.io/qit
 
