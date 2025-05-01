@@ -24,12 +24,19 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
+
+# GitHub fixed
+safe: true
+source: http://lumorti.github.io
 incremental: false
-
-
+highlighter: rouge
+gist:
+  noscript: false
 
 # Markdown Processing
 kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
   input: GFM
   hard_wrap: false
   auto_ids: true
@@ -39,3 +46,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  lsi: false
+
+
