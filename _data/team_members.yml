@@ -30,7 +30,7 @@
   email: pere.mujal@icfo.eu
   topics:
     - Quantum Reservoir Computing
-    - Many-Body Quantum Physics
+    - Many-body Quantum Physics
 
 
 
@@ -46,6 +46,7 @@
     - Quantum Key Distribution
     - Quantum Steering
     - Quantum Networks
+    - Quantum Energy Usage
 
 - name: Dr. Leonardo Zambrano
   position: Postdoctoral Researcher
@@ -108,7 +109,7 @@
   info: Postdoctoral researcher since TODO
   email: andreas.leitherer@icfo.eu
   topics:
-    - Many-Body Quantum Physics
+    - Many-body Quantum Physics
     - Machine Learning
     - Tensor Networks
 
@@ -249,7 +250,7 @@
   email: giacomo.franceschetto@icfo.eu
   topics:
     - Quantum Computing
-    - Quantum Reservior Computing
+    - Quantum Reservoir Computing
     - Machine Learning
 
 - name: Timothy Heightman
@@ -348,7 +349,7 @@
   email: tommaso.feri@icfo.eu
   topics:
     - Quantum Error Correction
-    - Open Quantum Systems
+    - Quantum Thermodynamics
 
 
 
