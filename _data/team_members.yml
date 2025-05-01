@@ -8,7 +8,7 @@
     - Nonlocality
     - Quantum Cryptography
     - Quantum Randomness
-    - Many-body Quantum Physics
+    - Many-Body Quantum Physics
     - Quantum Networks
 
 
@@ -30,7 +30,7 @@
   email: pere.mujal@icfo.eu
   topics:
     - Quantum Reservoir Computing
-    - Many-body Quantum Physics
+    - Many-Body Quantum Physics
 
 
 
@@ -55,7 +55,7 @@
   email: leonardo.zambrano@icfo.eu
   topics:
     - Quantum Tomography
-    - Many-body Quantum Physics
+    - Many-Body Quantum Physics
     - Quantum Foundations
 
 - name: Dr. Hippolyte Dourdent
@@ -65,6 +65,7 @@
   email: hippolyte.dourdent@icfo.eu
   topics:
     - Indefinite Causal Orders
+    - Non-Contextuality
     - Quantum Foundations
 
 - name: Dr. Miguel Frías Pérez
@@ -109,7 +110,7 @@
   info: Postdoctoral researcher since TODO
   email: andreas.leitherer@icfo.eu
   topics:
-    - Many-body Quantum Physics
+    - Many-Body Quantum Physics
     - Machine Learning
     - Tensor Networks
 
@@ -183,7 +184,7 @@
   email: luke.mortimer@icfo.eu
   topics:
     - Optimization
-    - Many-body Quantum Physics
+    - Many-Body Quantum Physics
     - Quantum Computing
     - Mutually Unbiased Bases
     - Nonlocality
