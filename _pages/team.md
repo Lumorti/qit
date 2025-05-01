@@ -1,196 +1,139 @@
 ---
-title: "Allan Lab - Team"
+title: "QIT @ ICFO - Team"
 layout: gridlay
-excerpt: "Allan Lab: Team members"
+excerpt: "QIT @ ICFO - Team"
 sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+{% assign positions = "" %}
+{% for member in site.data.team_members %}
+{% unless positions contains member.position %}
+{% assign positions = positions | append: member.position | append: "," %}
+{% endunless %}
+{% endfor %}
+{% assign positions = positions | split: "," %}
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+Filter by position:
+<div class="btn-group btn-group-justified" data-toggle="buttons">
+{% for position in positions %} <label class="btn btn-default active filter">
+<input class="position" type="checkbox" autocomplete="on" checked onchange="somethingChanged()"> {{ position }}
+</label>{% endfor %}
+</div>
+<button type="button" class="btn btn-default" onclick="setCheckboxes(true,'position')">All</button>
+<button type="button" class="btn btn-default" onclick="setCheckboxes(false,'position')">None</button>
+<br>
 
+{% assign topics = "" %}
+{% for member in site.data.team_members %}
+{% for topic in member.topics %}
+  {% unless topics contains topic %}
+    {% assign topics = topics | append: topic | append: "," %}
+  {% endunless %}
+{% endfor %}
+{% endfor %}
+{% assign topics = topics | split: "," %}
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+Filter by topic:
+<div class="btn-group btn-group-justified" data-toggle="buttons">
+{% for topic in topics %}<label class="btn btn-default active filter">
+<input class="topic" type="checkbox" autocomplete="on" checked onchange="somethingChanged()"> {{ topic }}
+</label>{% endfor %}
+</div>
+<button type="button" class="btn btn-default" onclick="setCheckboxes(true,'topic')">All</button>
+<button type="button" class="btn btn-default" onclick="setCheckboxes(false,'topic')">None</button>
 
-## Staff
+<script>
+
+    // Called when one of the filters is changed
+    function somethingChanged() {
+        var allowedPositions = [];
+        var allowedTopics = [];
+        document.querySelectorAll('input[type="checkbox"].position').forEach((cb) => {
+            if (cb.checked) {
+                allowedPositions.push(cb.nextSibling.textContent.trim().replace(/ /g, "-"));
+            }
+        });
+        document.querySelectorAll('input[type="checkbox"].topic').forEach((cb) => {
+            if (cb.checked) {
+                allowedTopics.push(cb.nextSibling.textContent.trim().replace(/ /g, "-"));
+            }
+        });
+        console.log(allowedPositions);
+        console.log(allowedTopics);
+        document.querySelectorAll('.person').forEach((row) => {
+            var hasPosition = false;
+            var hasTopic = false;
+            allowedPositions.forEach((position) => {
+                if (row.classList.contains(position)) {
+                    hasPosition = true;
+                }
+            });
+            allowedTopics.forEach((topic) => {
+                if (row.classList.contains(topic)) {
+                    hasTopic = true;
+                }
+            });
+            if (hasPosition && hasTopic) {
+                row.style.display = 'block';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+        <!--document.querySelectorAll('h2').forEach((header) => {-->
+            <!--var headerPosition = header.id.replace("header", "");-->
+            <!--headerPosition = headerPosition.replace(/_/g, "-");-->
+            <!--if (allowedPositions.includes(headerPosition)) {-->
+                <!--header.style.display = 'block';-->
+            <!--} else {-->
+                <!--header.style.display = 'none';-->
+            <!--}-->
+        <!--});-->
+    }
+
+    // When one of the all/none buttons is pressed, set all checkboxes to the value
+    function setCheckboxes(value, section) {
+        document.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+            if (section && cb.classList.contains(section)) {
+                cb.checked = value;
+                cb.parentElement.classList.toggle('active', value);
+            }
+        });
+        somethingChanged();
+    }
+
+</script>
+
+{% for position in positions %}<h2 id=header{{ position | replace: " ","_" }}>{{ position }}</h2>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-
+{% if member.position == position %}
 {% assign even_odd = number_printed | modulo: 2 %}
-
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
+<div class="col-sm-6 clearfix person {{ member.position | replace: " ", "-" }} {{ member.topics | join: "," | replace: " ", "-" | replace: ",", " " }}">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<h4>{{ member.name }}</h4>
+<i>{{ member.info }}
+<br><{{ member.email }}></i>
+<ul style="overflow: hidden">
+{% for topic in member.topics %}
+{% if topic != "" %}
+<li> {{ topic }} </li>
+{% endif %}
+{% endfor %}
+</ul>
 </div>
-
 {% assign number_printed = number_printed | plus: 1 %}
-
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
+{% endif %}
 {% endfor %}
-
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-
-
-
-## Master and Bachelor Students
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-## Former visitors, BSc/ MSc students
-<div class="row">
-
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
-
-
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
