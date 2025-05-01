@@ -75,20 +75,11 @@ Filter by topic:
                 }
             });
             if (hasPosition && hasTopic) {
-                row.style.display = 'block';
+                row.style.display = 'inline-block';
             } else {
                 row.style.display = 'none';
             }
         });
-        <!--document.querySelectorAll('h2').forEach((header) => {-->
-            <!--var headerPosition = header.id.replace("header", "");-->
-            <!--headerPosition = headerPosition.replace(/_/g, "-");-->
-            <!--if (allowedPositions.includes(headerPosition)) {-->
-                <!--header.style.display = 'block';-->
-            <!--} else {-->
-                <!--header.style.display = 'none';-->
-            <!--}-->
-        <!--});-->
     }
 
     // When one of the all/none buttons is pressed, set all checkboxes to the value
@@ -108,32 +99,27 @@ Filter by topic:
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 {% if member.position == position %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+<!--{% assign even_odd = number_printed | modulo: 2 %}-->
+<!--{% if even_odd == 0 %}-->
+<!--<div class="row">-->
+<!--{% endif %}-->
 <div class="col-sm-6 clearfix person {{ member.position | replace: " ", "-" }} {{ member.topics | join: "," | replace: " ", "-" | replace: ",", " " }}">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
 <h4>{{ member.name }}</h4>
-<i>{{ member.info }}
-<br><{{ member.email }}></i>
+<i>{{ member.info }}<br><{{ member.email }}></i>
 <ul style="overflow: hidden">
-{% for topic in member.topics %}
-{% if topic != "" %}
-<li> {{ topic }} </li>
-{% endif %}
-{% endfor %}
+{% for topic in member.topics %}{% if topic != "" %}<li> {{ topic }} </li>{% endif %}{% endfor %}
 </ul>
 </div>
-{% assign number_printed = number_printed | plus: 1 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+<!--{% assign number_printed = number_printed | plus: 1 %}-->
+<!--{% if even_odd == 1 %}-->
+<!--</div>-->
+<!--{% endif %}-->
 {% endif %}
 {% endfor %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+<!--{% assign even_odd = number_printed | modulo: 2 %}-->
+<!--{% if even_odd == 1 %}-->
+<!--</div>-->
+<!--{% endif %}-->
 {% endfor %}
 

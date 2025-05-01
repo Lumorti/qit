@@ -186,9 +186,7 @@
     - Optimization
     - Many-Body Quantum Physics
     - Quantum Computing
-    - Mutually Unbiased Bases
     - Nonlocality
-    - Indefinite Causal Orders
 
 - name: Gustavo Balvedi Pimentel
   position: PhD Student
@@ -289,6 +287,7 @@
   topics:
     - Tensor Networks
     - Nonlocality
+    - Optimization
 
 - name: Mariana Navarro Asan-Srain
   position: PhD Student
@@ -376,7 +375,7 @@
   position: Master and Bachelor Student
   photo: lorenzo.png
   info: Student since TODO
-  email: TODO
+  email: lorenzo.caramelli@icfo.eu
   topics:
     - TODO
 
