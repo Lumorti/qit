@@ -106,12 +106,14 @@
 - name: Dr. Andreas Leitherer
   position: Postdoctoral Researcher
   photo: andreas.png
-  info: Postdoctoral researcher since TODO
+  info: Postdoctoral researcher since October 2023
   email: andreas.leitherer@icfo.eu
   topics:
     - Many-Body Quantum Physics
+    - Quantum Foundations
+    - Indefinite Causal Orders
+    - Quantum Gravity
     - Machine Learning
-    - Tensor Networks
 
 - name: Dr. Alimuddin Mir
   position: Postdoctoral Researcher
