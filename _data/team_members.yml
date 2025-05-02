@@ -166,7 +166,7 @@
   email: raja.yehia@icfo.eu
   topics:
     - Quantum Communication
-    - Quantum Key Distribution
+    - Quantum Cryptography
     - Quantum Energy Usage
 
 
@@ -204,6 +204,7 @@
   info: PhD student since September 2023
   email: julia.barbera@icfo.eu
   topics:
+    - Quantum Computing
     - Quantum Tomography
 
 - name: Fionnuala Curran
@@ -293,10 +294,11 @@
 - name: Mariana Navarro Asan-Srain
   position: PhD Student
   photo: mariana.png
-  info: PhD student since March 2023
+  info: PhD student since June 2023
   email: mariana.navarro@icfo.eu
   topics:
     - Quantum Optics
+    - Quantum Communication
     - Quantum Key Distribution
 
 - name: Egle Pagliaro
